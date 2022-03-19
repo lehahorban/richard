@@ -1,0 +1,138 @@
+.organization {
+  width: 1440px;
+}
+.organization_container {
+  margin: 0 auto;
+  padding-top: 159px;
+  padding-left: 82px;
+  padding-right: 82px;
+}
+
+.organization_list {
+  display: flex;
+}
+
+.organization_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & + & {
+    margin-left: 61px;
+  }
+}
+.organization_title {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  text-align: center;
+  color: #000000;
+}
+
+.organization_text {
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  text-align: center;
+  color: #6b6b6b;
+}
+
+.number_list {
+  display: flex;
+}
+
+.number_item {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 163px;
+}
+
+.number_title {
+  font-weight: 400;
+  font-size: 59px;
+  line-height: calc(90 / 59);
+  text-align: center;
+  color: #333333;
+}
+
+.number_text {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  text-align: center;
+  color: #000000;
+}
+.food_list {
+  margin-top: 170px;
+}
+
+.food_item {
+  display: flex;
+  & + & {
+    margin-top: 161px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+}
+
+.food_wrapper-first {
+  width: 330px;
+  margin-left: 172px;
+}
+
+.food_wrapper-second {
+  width: 330px;
+  margin-left: 77px;
+}
+.food_title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(20 / 12);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+}
+
+.food_caption {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: calc(48 / 38);
+  color: #000000;
+}
+
+.food_text {
+  margin-top: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #6b6b6b;
+}
+.food_img-first {
+  width: 519px;
+  height: 414px;
+  margin-left: 82px;
+}
+
+.food_img-second {
+  width: 519px;
+  height: 414px;
+  margin-left: 134px;
+}
+
+.company_img {
+  margin: 0 auto;
+  margin-top: 142px;
+  width: 1008px;
+  height: 35px;
+}
+
+.telefon_img {
+  margin: 0 auto;
+  margin-top: 118px;
+  max-width: 1440px;
+  height: 518px;
+}
