@@ -504,6 +504,7 @@ ul {
   line-height: calc(26 / 16);
   text-align: center;
   color: #ffffff;
+  z-index: 7;
 }
 
 .context_btn-second {
