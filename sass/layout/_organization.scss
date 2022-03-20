@@ -10,6 +10,13 @@
 
 .organization_list {
   display: flex;
+  &:hover,
+  :focus {
+    .organization_item {
+      animation-name: puls;
+      animation-duration: 2s;
+    }
+  }
 }
 
 .organization_item {
@@ -41,6 +48,13 @@
 
 .number_list {
   display: flex;
+  &:hover,
+  :focus {
+    .number_item {
+      animation-name: rotate;
+      animation-duration: 2s;
+    }
+  }
 }
 
 .number_item {
@@ -122,7 +136,15 @@
   height: 414px;
   margin-left: 134px;
 }
-
+.company_img-wrap {
+  &:hover,
+  :focus {
+    .company_img {
+      animation-name: puls;
+      animation-duration: 3s;
+    }
+  }
+}
 .company_img {
   margin: 0 auto;
   margin-top: 142px;

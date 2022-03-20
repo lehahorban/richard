@@ -2,8 +2,26 @@
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
+  &:hover,
+  :focus {
+    .feature_title,
+    .feature_caption,
+    .feature_text {
+      animation-name: slidein;
+      animation-duration: 2s;
+      opacity: 1;
+    }
+  }
+  &:hover,
+  :focus {
+    .feature_img-first,
+    .feature_img-second,
+    .feature_img-third {
+      animation-name: puls;
+      animation-duration: 3s;
+    }
+  }
 }
-
 .featere_container {
   //   padding-left: 102px;
   //   padding-right: 102px;
