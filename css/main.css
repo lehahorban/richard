@@ -190,6 +190,7 @@ ul {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #a8a8a8;
+  opacity: 0;
 }
 
 .hero_text {
@@ -200,6 +201,7 @@ ul {
   line-height: calc(48 / 38);
   text-align: center;
   color: #ffffff;
+  opacity: 0;
 }
 
 .hero_img {
@@ -278,6 +280,7 @@ ul {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #a8a8a8;
+  opacity: 0;
 }
 
 .feature_caption {
@@ -286,6 +289,7 @@ ul {
   font-size: 38px;
   line-height: calc(48 / 38);
   color: #000000;
+  opacity: 0;
 }
 
 .feature_text {
@@ -294,6 +298,7 @@ ul {
   font-size: 16px;
   line-height: calc(30 / 16);
   color: #6b6b6b;
+  opacity: 0;
 }
 
 .feature_img-first {
@@ -329,9 +334,9 @@ ul {
   display: flex;
 }
 
-.organization_list:hover .organization_item,
-.organization_list :focus .organization_item {
-  animation-name: puls;
+.organization_list:hover .organization_icon,
+.organization_list :focus .organization_icon {
+  animation-name: rotate;
   animation-duration: 2s;
 }
 
@@ -458,17 +463,14 @@ ul {
   margin-left: 134px;
 }
 
-.company_img-wrap:hover .company_img,
-.company_img-wrap :focus .company_img {
-  animation-name: puls;
-  animation-duration: 3s;
-}
-
 .company_img {
   margin: 0 auto;
   margin-top: 142px;
   width: 1008px;
   height: 35px;
+  animation-name: puls;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .telefon_img {
@@ -584,6 +586,13 @@ ul {
   z-index: 7;
 }
 
+.context_btn-first:hover,
+.context_btn-first :focus {
+  animation-name: puls;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .context_btn-second {
   width: 190px;
   height: 66px;
@@ -597,6 +606,13 @@ ul {
   color: #ffffff;
   outline: none;
   z-index: 7;
+}
+
+.context_btn-second:hover,
+.context_btn-second :focus {
+  animation-name: puls;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .footer {
@@ -653,6 +669,12 @@ ul {
   outline: none;
 }
 
+.footer_input:hover,
+.footer_input :focus {
+  animation-name: puls;
+  animation-duration: 2s;
+}
+
 .form_btn {
   width: 154px;
   height: 70px;
@@ -664,10 +686,20 @@ ul {
   text-align: center;
 }
 
+.form_btn:hover,
+.form_btn :focus {
+  animation-name: puls;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .footer_img {
   margin-top: 146px;
   width: 136px;
   height: 104px;
+  animation-name: puls;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .footer_list {
@@ -691,6 +723,7 @@ ul {
 
 .footer_link:hover {
   color: #ffffff;
+  animation-name: puls;
 }
 
 @keyframes slidein {

@@ -45,6 +45,12 @@
   text-align: center;
   color: #ffffff;
   z-index: 7;
+  &:hover,
+  :focus {
+    animation-name: puls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
 }
 
 .context_btn-second {
@@ -60,4 +66,10 @@
   color: #ffffff;
   outline: none;
   z-index: 7;
+  &:hover,
+  :focus {
+    animation-name: puls;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
 }

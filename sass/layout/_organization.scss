@@ -12,8 +12,8 @@
   display: flex;
   &:hover,
   :focus {
-    .organization_item {
-      animation-name: puls;
+    .organization_icon {
+      animation-name: rotate;
       animation-duration: 2s;
     }
   }
@@ -27,6 +27,11 @@
   & + & {
     margin-left: 61px;
   }
+  // &:hover,
+  // :focus {
+  //   animation-name: puls;
+  //   animation-duration: 2s;
+  // }
 }
 .organization_title {
   margin-top: 40px;
@@ -136,20 +141,15 @@
   height: 414px;
   margin-left: 134px;
 }
-.company_img-wrap {
-  &:hover,
-  :focus {
-    .company_img {
-      animation-name: puls;
-      animation-duration: 3s;
-    }
-  }
-}
+
 .company_img {
   margin: 0 auto;
   margin-top: 142px;
   width: 1008px;
   height: 35px;
+  animation-name: puls;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .telefon_img {
