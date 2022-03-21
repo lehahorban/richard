@@ -321,6 +321,7 @@ ul {
 
 .organization {
   width: 1440px;
+  margin: 0 auto;
 }
 
 .organization_container {
@@ -465,7 +466,7 @@ ul {
 
 .company_img {
   margin: 0 auto;
-  margin-top: 142px;
+  margin-top: 237px;
   width: 1008px;
   height: 35px;
   animation-name: puls;
@@ -534,6 +535,12 @@ ul {
   width: 7px;
   height: 7px;
   background: rgba(34, 34, 34, 0.4);
+}
+
+.one-time {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .backgraund {
